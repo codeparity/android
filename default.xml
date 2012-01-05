@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
+           fetch="http://android.googlesource.com/"
            review="review.source.android.com" />
   <remote name="github" fetch="git://github.com/" review="review.cyanogenmod.com" />
   <remote name="themes" fetch="git://github.com/tmobile" />
@@ -199,7 +199,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" remote="github" />
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="refs/heads/master" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="tmobile/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="refs/heads/master" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="themes" revision="refs/heads/master" />
@@ -218,4 +218,3 @@
   <project path="vendor/cyanogen" name="drakaz/gaosp_vendor_cyanogen" remote="github" revision="gaosp-gingerbread" />
 
 </manifest>
-
